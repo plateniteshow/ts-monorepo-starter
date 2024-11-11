@@ -26,6 +26,18 @@
 			"group": "build"
 		},
 		{
+			"label": "Docker Compose Down",
+			"type": "shell",
+			"command": "docker-compose down",
+			"group": "build"
+		},
+		{
+			"label": "Docker Compose Up",
+			"type": "shell",
+			"command": "docker-compose up",
+			"group": "build"
+		},
+		{
 			"label": "Lint",
 			"type": "shell",
 			"command": "npm run lint",
