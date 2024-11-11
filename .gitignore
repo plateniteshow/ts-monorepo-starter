@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules
+
+# VSCode
+.vscode/*
+!.vscode/tasks.json
+
+# Generated output
+dist
+
+# TypeScript cache
+*.tsbuildinfo

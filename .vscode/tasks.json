@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Analyze App 1",
+			"type": "shell",
+			"command": "npm run analyze:app-1",
+			"group": "test"
+		},
+		{
+			"label": "Analyze App 2",
+			"type": "shell",
+			"command": "npm run analyze:app-2",
+			"group": "test"
+		},
+		{
+			"label": "Build App 1",
+			"type": "shell",
+			"command": "npm run build:app-1",
+			"group": "build"
+		},
+		{
+			"label": "Build App 2",
+			"type": "shell",
+			"command": "npm run build:app-2",
+			"group": "build"
+		},
+		{
+			"label": "Lint",
+			"type": "shell",
+			"command": "npm run lint",
+			"group": "test",
+			"problemMatcher": [
+				"$eslint-stylish"
+			]
+		},
+		{
+			"label": "Test",
+			"type": "shell",
+			"command": "npm run test",
+			"group": "test",
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Test Watch",
+			"type": "shell",
+			"command": "npm run test:watch",
+			"group": "test"
+		},
+		{
+			"label": "Watch App 1",
+			"type": "shell",
+			"command": "npm run watch:app-1",
+			"group": "build"
+		},
+		{
+			"label": "Watch App 2",
+			"type": "shell",
+			"command": "npm run watch:app-2",
+			"group": "build"
+		}
+	]
+}

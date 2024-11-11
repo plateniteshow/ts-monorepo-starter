@@ -1,0 +1,11 @@
+{
+	"name": "@ts-monorepo-starter/app-1",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"analyze": "source-map-explorer dist/index.js",
+		"build": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js",
+		"watch": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js --watch"
+	}
+}

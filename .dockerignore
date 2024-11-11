@@ -1,0 +1,12 @@
+.git
+.gitignore
+.DS_Store
+.vscode
+
+Dockerfile
+docker-compose.yml
+
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+
